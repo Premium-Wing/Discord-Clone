@@ -38,7 +38,8 @@ const ChannelIdPage = async ({
   if (!channel || !member) {
     redirect("/");
   }
-return (
+
+  return ( 
     <div className="bg-white dark:bg-[#313338] flex flex-col h-full">
       <ChatHeader
         name={channel.name}
@@ -56,9 +57,7 @@ return (
         }}
       />
     </div>
-)
-
-  
+   );
 }
-
+ 
 export default ChannelIdPage;
