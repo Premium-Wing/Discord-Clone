@@ -61,10 +61,9 @@ model Member {
   server   Server @relation(fields: [serverId], references: [id], onDelete: Cascade)
 
 messages Message[]
- directMessages DirectMessage[]
-
- conversationsInitiated Conversation[] @relation("MemberOne")
- conversationsReceived Conversation[] @relation("MemberTwo")
+  directMessages DirectMessage[]
+  conversationsInitiated Conversation[] @relation("MemberOne")
+  conversationsReceived Conversation[] @relation("MemberTwo")
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
