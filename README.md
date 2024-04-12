@@ -18,7 +18,7 @@ Next.js, React, Tailwind CSS, MySQL, Prisma
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Premium-Wing/Discord-Clone.git
+   git clone https://github.com/Premium-Wing/LinkUp.git
    ```
 2. Install dependencies:
 
